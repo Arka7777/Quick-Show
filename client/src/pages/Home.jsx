@@ -1,7 +1,12 @@
 import React from 'react'
+import Hero from '../components/Hero'
+import Feature from '../components/Feature'
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <>
+    <Hero/>
+    <Feature/>
+    </>
   )
 }
