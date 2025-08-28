@@ -29,7 +29,7 @@ export default function Hero() {
       <p>
         In a post-apocalypic world where cities ride on wheels and consume each other to survive , two peoplw meet in  London and try to stop a conspirancy.
       </p>
-      <button className='bg-red-400 hover:bg-red-700 rounded-full text-sm cursor-pointer hover:bg-primary-dull font-medium px-6 py-3 transition flex items-center gap-1  ' onClick={()=>navigate('/movies')}>
+      <button className='bg-red-500 hover:bg-red-800 rounded-full text-sm cursor-pointer hover:bg-primary-dull font-medium px-6 py-3 transition flex items-center gap-1  ' onClick={()=>navigate('/movies')}>
         Explore movies
         <ArrowRight className='w-5 h-5'/>
 

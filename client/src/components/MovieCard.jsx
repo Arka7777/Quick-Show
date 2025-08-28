@@ -1,6 +1,7 @@
 import { StarIcon } from "lucide-react"
 import React from "react"
 import { useNavigate } from "react-router-dom"
+import timeFormat from "../lib/timeFormat"
 
 export default function MovieCard({ movie }) {
   const navigate = useNavigate()
@@ -27,7 +28,7 @@ export default function MovieCard({ movie }) {
       <p className="text-sm text-gray-400 mt-1">
         {new Date(movie.release_date).getFullYear()} •{" "}
         {movie.genres.slice(0, 2).map((genre) => genre.name).join(" | ")} •{" "}
-        {movie.runtime} min
+        {timeFormat(movie.runtime)} 
       </p>
 
       {/* Actions & Rating */}
