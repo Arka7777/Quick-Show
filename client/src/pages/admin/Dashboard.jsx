@@ -31,7 +31,7 @@ export default function Dashboard() {
     },
     {
       title: "Total Revenue",
-      value: `${currency || "$"} ${dashboardData.totalrevenue || 0}`,
+      value: `${currency || "$"} ${dashboardData.totalRevenue || 0}`,
 
       icon: CircleDollarSignIcon,
     },
@@ -42,7 +42,7 @@ export default function Dashboard() {
     },
     {
       title: "Total Users",
-      value: dashboardData.totalUsers || "0",
+      value: dashboardData.totalUser || "0",
       icon: UsersIcon,
     },
   ];
