@@ -162,7 +162,7 @@ export default function AddShows() {
         ))}
       </div>
 
-        {/* add show  */}
+        
       <button className="mt-6 bg-green-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-green-700 transition disabled:opacity-50 disabled:cursor-not-allowed">Add Show</button>
       
     </>
